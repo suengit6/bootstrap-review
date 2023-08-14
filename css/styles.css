@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://github.com/suengit6/CozyChic-Images-Final/blob/main/BG-image/rosegold-roses.jpg?raw=true);
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    color:white
+}
+.container-fluid{
+    margin-top: 40px;
+    width: 400px;
+    height: 350px;
+    background-color: rgb(245, 228, 220);
+    display: flex;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+label{
+    font-family: poppins;
+    font-size: 1.5rem;
+    color: rgb(255, 141, 141);
+}
+input{
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    padding: 5px 5px;
+}
+button{
+    padding: 20px 50px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(255, 183, 183);
+    color: white;
+}
